@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <bits/stdc++.h>
 /*int main()
 {
@@ -20,9 +19,25 @@
 	}
 	return 0;
 }*/
-int main()
+/*int main()
 {
 	char s = 'a';
 	putchar(s);
+	return 0;
+}*/
+int main()
+{
+	/*char a;
+	scanf("%c",&a);
+	printf("%d\n",a );
+	//输入数字打出其ASCII码
+	//putchar('\0');
+	int b;
+	scanf("%d",&b);
+	printf("%c\n", b);	
+	//输入ASCII码输出字符*/
+	int a[3];
+	scanf("%d",a);
+	printf("%d%d%d\n",a[0],a[1],a[2] );
 	return 0;
 }
